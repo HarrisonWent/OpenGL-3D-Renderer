@@ -10,7 +10,14 @@ class LightBase
 public:
 	LightBase();
 	~LightBase();
+
+	/// <summary>
+	/// Draw a gizmo where the light is and move the light using movestep
+	/// </summary>
+	/// <param name="Cam">Current camera</param>
 	void Draw(Camera* Cam);
+
+	//Colour of the light
 	vec3 M_Color;
 	Transform* m_Transform = new Transform();
 

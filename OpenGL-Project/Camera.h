@@ -6,7 +6,6 @@
 #include<glm\glm.hpp>
 #include <glew.h>
 
-//using namespace glm;
 
 class Camera
 {
@@ -26,6 +25,10 @@ public:
 	vec2 Size;
 	vec2 Position;
 
+	/// <summary>
+	/// Get the position, rotation and direction of the camera
+	/// </summary>
+	/// <returns></returns>
 	glm::mat4 GetView() 
 	{		
 		//Positions!
@@ -52,6 +55,10 @@ public:
 	float xAngle = 0;
 	float yAngle = 0;
 
+	/// <summary>
+	/// Get the position relative to the camera where we are looking, also incluses mouse input for moving it
+	/// </summary>
+	/// <returns></returns>
 	glm::vec3 GetLookTargetPosition()
 	{
 		//mouse position
@@ -88,7 +95,10 @@ public:
 		return TargetPosition;
 	}
 
-	//spin the camera around world center
+	/// <summary>
+	/// spin the camera around world center
+	/// </summary>
+	/// <param name="Direction"></param>
 	void Spin(bool Direction) 
 	{
 		const float radius = 10.0f;
@@ -108,6 +118,9 @@ public:
 	}
 	float timer = 0.00f;
 
+	/// <summary>
+	/// WASD keys input for moving the camera
+	/// </summary>
 	void WASDMove()
 	{
 		vec3 NewMove = vec3(0.0f, 0.0f, 0.0f);
@@ -144,6 +157,10 @@ public:
 		//m_transform->SetPosition(m_transform->GetPosition() + NewMove);
 	}
 
+	/// <summary>
+	/// Get the perspective projection of the camera
+	/// </summary>
+	/// <returns></returns>
 	glm::mat4 GetPerspective() 
 	{
 		return m_PerspectiveProjection;

@@ -15,6 +15,17 @@ using namespace std;
 class OBJLoader
 {
 public:
+	/// <summary>
+	/// Loads a .OBJ file
+	/// </summary>
+	/// <param name="FolderLoc"></param>
+	/// <param name="Filename"></param>
+	/// <param name="AmbientLoc"></param>
+	/// <param name="DiffLoc"></param>
+	/// <param name="specLoc"></param>
+	/// <param name="NormalLoc"></param>
+	/// <param name="indices"></param>
+	/// <returns></returns>
 	static vector<Vertex> LoadOBJ(const string& FolderLoc,
 		const string& Filename, string& AmbientLoc, string& DiffLoc,
 		string& specLoc, string& NormalLoc, vector<glm::uint>& indices);

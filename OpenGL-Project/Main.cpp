@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
 
 	//Create shader
 	Shader* basicShader = new Shader("../Resources/Shaders/Basic");
-		
+
 	//Create scene objects
 	Object* NewSceneObject = new Object();
 	SceneObjects.push_back(NewSceneObject);

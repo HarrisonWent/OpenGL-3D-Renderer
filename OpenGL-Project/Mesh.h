@@ -20,6 +20,7 @@ public:
 	Mesh(Vertex* verts, unsigned int vertCount, unsigned int* indices, unsigned int numIndices);
 	
 	void Draw();
+
 	void CalculateTangentsBitangent(Vertex* verticies, unsigned int vertCount, unsigned int* indices, unsigned int numIndices);
 
 	~Mesh();

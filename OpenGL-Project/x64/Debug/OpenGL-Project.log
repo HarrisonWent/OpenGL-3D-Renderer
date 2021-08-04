@@ -1,1 +1,17 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(67,5): error MSB8020: The build tools for v142 (Platform Toolset = 'v142') cannot be found. To build using the v142 build tools, please install v142 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
+﻿  Camera.cpp
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\Transform.hpp(5,10): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  LightBase.cpp
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\Transform.hpp(5,10): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  Main.cpp
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\Main.cpp(2,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  Mesh.cpp
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\Mesh.h(5,9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  Object.cpp
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\Mesh.h(5,9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  OBJLoader.cpp
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\OBJLoader.h(9,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  Shader.cpp
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\Shader.h(2,10): fatal error C1083: Cannot open include file: 'glm\gtc\type_ptr.hpp': No such file or directory
+  TextureLoader.cpp
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\TextureLoader.h(2,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+  Generating Code...

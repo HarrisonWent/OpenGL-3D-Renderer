@@ -1,52 +1,12 @@
-﻿  Main.cpp
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Camera.h(67,22): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+﻿  LightBase.cpp
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\Camera.h(74,22): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Camera.h(68,22): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\OpenGL-Project\Camera.h(75,22): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Main.cpp(33,73): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
-          with
-          [
-              T=float
-          ]
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Main.cpp(33,59): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
-          with
-          [
-              T=float
-          ]
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Main.cpp(33,45): warning C4244: 'argument': conversion from 'T' to 'GLint', possible loss of data
-          with
-          [
-              T=float
-          ]
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Main.cpp(33,27): warning C4244: 'argument': conversion from 'T' to 'GLint', possible loss of data
-          with
-          [
-              T=float
-          ]
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Main.cpp(37,72): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
-          with
-          [
-              T=float
-          ]
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Main.cpp(37,58): warning C4244: 'argument': conversion from 'T' to 'GLsizei', possible loss of data
-          with
-          [
-              T=float
-          ]
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Main.cpp(37,44): warning C4244: 'argument': conversion from 'T' to 'GLint', possible loss of data
-          with
-          [
-              T=float
-          ]
-K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\OpenGL-Project\Main.cpp(37,26): warning C4244: 'argument': conversion from 'T' to 'GLint', possible loss of data
-          with
-          [
-              T=float
-          ]
-  OpenGL-Project.vcxproj -> K:\Y2\Programming For Graphics\Renderer\OpenGL-Project\Debug\OpenGL-Project.exe
+  OpenGL-Project.vcxproj -> K:\Y2\Programming For Graphics\OpenGL-3D-Renderer\Debug\OpenGL-Project.exe

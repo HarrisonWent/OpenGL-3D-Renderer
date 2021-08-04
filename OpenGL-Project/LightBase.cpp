@@ -12,6 +12,7 @@ LightBase::~LightBase()
 
 void LightBase::Draw(Camera* Cam)
 {
+	//Move the light
 	if ((moveStep.x + moveStep.y + moveStep.z) > 0)
 	{
 		if ((m_Transform->GetPosition().x+ m_Transform->GetPosition().y+ m_Transform->GetPosition().z) > 15)
@@ -28,14 +29,17 @@ void LightBase::Draw(Camera* Cam)
 
 	m_Transform->SetPosition(vec3(m_Transform->GetPosition().x+ moveStep.x, m_Transform->GetPosition().y + moveStep.y, m_Transform->GetPosition().z + moveStep.z));
 
+	glm::mat4 perspective = Cam->GetPerspective();
+
 	glUseProgram(0);
 	
 	glMatrixMode(GL_PROJECTION);
-	glLoadMatrixf((const GLfloat*)&Cam->GetPerspective());
+	glLoadMatrixf((const GLfloat*)&perspective);
 	glMatrixMode(GL_MODELVIEW);
 	glm::mat4 MV = Cam->GetView() * m_Transform->GetModel();
 	glLoadMatrixf((const GLfloat*)&MV[0]);
 
+	//Draw some axis gizmo lines to show there the light is
 	glBegin(GL_LINES);
 		glm::vec3 p1 = this->m_Transform->GetPosition();
 		glm::vec3 p2 = p1;
